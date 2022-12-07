@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+tr,th,td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+th{
+    background-color: aqua;
+}
+h3{
+    color: rgb(142, 76, 204);
+}
+ul{
+    color: brown;
+}
+ol{
+    color: rgb(47, 77, 18);
+}
+
+.hobby{
+    position: relative;
+    width: 30%;
+    
+}
+.text1{
+    position:absolute;
+    top: 415px;
+    left: 300px;
+    
+
+}

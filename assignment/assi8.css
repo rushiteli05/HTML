@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family:"lobster",cursive;
+    background-color: black;
+}
+header::before{
+    content: "";
+    background: url() no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.dropbtn{
+    background-color: #4CAf50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+h2{
+    font-size: 2.2rem;
+    margin-left: 30px;
+    color: rgb(228, 35, 202);
+    text-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+}
+.navigation{
+    font-size: 20px;
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+li a{
+    padding: 2px 23px;
+    text-decoration: none;
+    color: rgb(230, 104, 104);
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 15px;
+}
+li a:hover{
+    background-color:coral;
+    color: black;
+    transition: 0.6s ease;
+}
+li a.active{
+    border: 2px solid black;
+}
+.container{
+    display: inline;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.gallary img:hover{
+    width: 300px;
+    height: 300px;
+    transition: 0.1s ease;
+
+}
+.button{
+    display: inline;
+    flex-direction:column;
+    margin-left: 60px;
+}
+.btn{
+    font-family: "lobster",cursive;
+    color:coral;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin: 5PX;
+    cursor: pointer;
+    border: 2PX solid coral;
+}
+.btn:hover{
+    color: black;
+    background-color: coral;
+    transition: 0.4s ease;
+
+}
+h1{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: brown;
+}
+h1#gallary{
+    color: red;
+}
+.photo{
+    margin-left: 400px;
+    
+    
+}
+.note{
+    font-size: 25px;
+    color: rgb(209, 109, 109);
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 5px white;
+}
+h1#contact{
+    font-size: 25px;
+    color: black;
+}
+.rushi{
+    background-size: 60px;
+}
+.pic1{
+    margin:15px;
+    
+}

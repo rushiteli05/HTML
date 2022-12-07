@@ -1,0 +1,22 @@
+h1{
+    text-shadow: 2px 2px 2px orange;
+    padding:20px;
+
+}
+ tr,th,td{
+    border: 2px solid black;
+}
+th{
+     background-color: coral;
+}
+a.href,h4{
+    background-color:rgb(221, 94, 94);
+    color: white;
+    padding: 15px 25px;
+    display:inline-flex;
+    text-align: center;
+}
+a.href,h4{
+    background-color: rgb(238, 130, 130);
+    text-align: center;
+}

@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.rushi{
+    background-image: url(/images/picb4.jpg) ;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.navbar{
+    color: white;
+    font-size: 30px;
+    width: 50%;
+      display: inline-block;
+      padding-top: 20px;
+}
+.navbar a:hover{
+    background-color: coral;
+    transition: 2s;
+    border-radius: 18px;
+}
+.navbar a{
+    color: beige;
+    text-decoration: none;
+    padding: 9px;
+}
+.button{
+    float: right;
+    width:25%;
+    padding-top: 20px;
+ 
+}
+.sh{
+    width: 100%;
+    display: flex;
+   
+}
+.content{
+   text-align: center;
+   padding-top: 300px;
+}
+.icon{
+    width: 25%;
+    padding-top: 25px;
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(11, 12, 12);
+}
+.icon a{
+    color: white;
+    padding: 10px;
+    }
+.icon a:hover{
+    background-color: chocolate;
+}    
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    text-shadow: 2px 2px 2px white;
+}
+h4{
+    font-size: 30px;
+    color: rgb(246, 252, 248);
+    text-shadow: 2px 2px 2px rgb(12, 3, 3);
+}
+.btn{
+    font-size: 25px;
+        font-family: cursive;
+        border-radius: 20px;
+        color: white;
+        text-shadow: 2px 2px 2px coral;
+        margin: 20px 20px;
+        background-color: black;
+}
+.btn1{
+    text-align: center;
+    
+}
+.btn:hover{
+    background-color:coral;
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}    
+.child{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* color: red; */
+ 
+}
+.img1{
+    padding: 20px;
+    text-align: center;
+     margin-top:40px;
+     width: 30%;
+}
+
+.img1 img{
+    border-radius: 30px;
+}
+h3{
+    padding: 20px;
+}
+.index{
+    background-image: url(/images/civil7.jpg);
+    height:100vh;
+    width:100%;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    padding: 25px;
+   
+    
+}
+.tel{
+    background-image: url(/images/civil6.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    height:100vh;
+    width:100%;
+   
+}
+.index label{
+     font-size: 25px;
+     font-weight: bold;
+     color: rgb(235, 228, 230);
+     text-shadow: 2px 2px 2px black,2px 2px 2px coral; 
+     
+}
+input[type=text]{
+    padding: 12px 12px;
+    padding-left: 20px;
+}
+h2{
+    
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px black,2px 2px 2px red;
+    
+}
+p{
+    font-size: 30px;
+    text-overflow: 2px 2px 2px white;
+}
+button[type=button]{
+    font-size: 28px;
+    padding: 4px;
+    border-radius: 15px;
+}
+button[type=button]:hover{
+    background-color: chartreuse;
+}
+ .add{
+    display: flex;
+    float: right;
+ }
+ .reg{
+    float: left;
+    display: flex;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        text-align: center;
+        
+    }
+
+    ul li a {
+        text-decoration: none;
+        font-size: 10px;
+        
+    }
+    .icon {
+        width: 50%;
+        display:block;
+        
+    }
+     .button {
+    display: block;
+    width: 100%;
+    float: left;
+       
+    }
+    .chaild{
+        display: block;
+        width: 100%;
+    }
+}

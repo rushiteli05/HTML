@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    @media (max-width:500px) {
+        
+    
+    .container{
+        background-color: aqua;
+        display: grid;
+        height: 700px;
+        row-gap: 15px;
+        column-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 60px 1fr 60px;
+
+        
+    }
+    .item{
+        background-color: rgb(247, 235, 235);
+        text-align: center;
+       
+    }
+    .item1{
+        grid-column: 1 / span 3;
+        background-color: rgb(247, 86, 86);
+        color: black;
+
+    }
+    .item5{
+        grid-column: 1 / span 3;
+        background-color: rgb(238, 78, 78);
+        color: black;
+    }
+    .header{
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .item img{
+        padding-left: 50px;
+    }
+    .item5{
+        font-size: 39px;
+        text-align: center;
+    }
+}
+</style>
+<body>
+    <div class="container">
+        <div class="item item1">
+            <div class="header">
+                Brain Works
+            </div>
+        </div>
+        <div class="item item2">
+            <img src="/images/picb1.jpg" height="300px" width="300px">
+            <h1>Our Work</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam perferendis officiis impedit harum cupiditate ex minus unde architecto debitis tempore? Vel magnam voluptatibus enim deleniti commodi officiis perferendis fugit sit?</p>
+        </div>
+        <div class="item item3">
+            <img src="/images/picb4.jpg" height="300px" width="300px">
+            <h1>Our Work</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam perferendis officiis impedit harum cupiditate ex minus unde architecto debitis tempore? Vel magnam voluptatibus enim deleniti commodi officiis perferendis fugit sit?</p>
+        </div>
+        <div class="item item4">
+            <img src="/images/picb3.jpg" height="300px" width="300px">
+            <h1>Our Work</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam perferendis officiis impedit harum cupiditate ex minus unde architecto debitis tempore? Vel magnam voluptatibus enim deleniti commodi officiis perferendis fugit sit?</p>
+        </div>
+        <div class="item item5"> Thank you</div>
+    </div>
+</body>
+</html>

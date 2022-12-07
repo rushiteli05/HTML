@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/524c849674.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .shub {
+        width: 100%;
+        display: flex;
+        flex: wrap;
+        position: sticky;
+        top: 0;
+
+    }
+
+
+    .menu {
+        color: white;
+        background-color: rgb(19, 14, 14);
+        width: 100%;
+        float: left;
+        padding: 15px;
+
+
+    }
+
+    .menu a {
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+        font-family: cursive;
+        margin: 5px;
+        text-decoration: none;
+
+    }
+
+    .button {
+        float: right;
+
+    }
+
+    .icon {
+        float: right;
+        margin-right: 10px;
+
+    }
+
+    .menu a:hover {
+        background-color: coral;
+        transition: 1s;
+        border-radius: 20px;
+        padding: 3px;
+    }
+
+    .sbtn {
+        float: right;
+        margin-right: 15px;
+        margin-top: 8px;
+        border-radius: 5px;
+    }
+
+    .sbtn:hover {
+        background-color: rgb(5, 17, 17);
+        transform: 2s;
+        color: white;
+        border: 2px black;
+    }
+
+    .btn1 {
+        float: right;
+        margin-right: 15px;
+        margin-top: 8px;
+    }
+
+    .icon {
+        padding: 6px;
+        margin: 5px;
+        margin-left: 55px;
+        color:white;
+
+    }
+
+    .drop {
+        position: relative;
+        color: rgb(11, 11, 24);
+    }
+
+    .dropdown {
+        position: absolute;
+        width: 100%;
+        top: 30px;
+        right: 20px;
+        left: 20px;
+        display: none;
+
+    }
+
+
+    .drop:hover .dropdown {
+        display: block;
+        background-color: rgb(13, 14, 14);
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .img1 {
+        background-image: url(/images/picb1.jpg);
+        height: 750px;
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    .img2 {
+        background-image: url(/images/pixel3.jpg);
+        height: 750px;
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 100px;
+        text-shadow: 3px 3px 3px orangered;
+        font-weight: bold;
+        padding-top: 350px;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px 2px olive;
+        font-family: cursive;
+    }
+
+    h2 {
+        color: rgb(246, 245, 250);
+        text-align: center;
+        text-shadow: 2px 2px 2px rgb(12, 12, 12);
+        padding-top: 350px;
+        font-family: cursive;
+    }
+
+    .btn {
+        font-size: 20px;
+        font-family: cursive;
+        border-radius: 15px;
+        color: beige;
+        text-shadow: 2px 2px 2px coral;
+        margin: 20px 20px;
+        border: 2px solid coral;
+
+
+
+    }
+
+    .img1 {
+        text-align: center;
+    }
+
+    .btn:hover {
+        background-color: coral;
+        color: black;
+        transition: 0.6s ease;
+
+    }
+
+
+    label {
+        color: rgb(218, 230, 174);
+        text-shadow: 1px 1px 1px rgb(48, 20, 10);
+        font-family: sans-serif;
+        font-size: 24px;
+    }
+
+    h4 {
+        color: rgb(8, 8, 8);
+        text-shadow: 2px 2px 2px rgb(253, 251, 250);
+        font-weight: italic;
+        font-size: 30px;
+
+    }
+
+    .register {
+        background-color: rgb(14, 13, 13);
+        padding: 25px 45px;
+        background-image: url(/images/picb1.jpg);
+        width: 100%;
+
+
+    }
+
+    h5 {
+        color: black;
+        text-shadow: 1px 1px 1px white;
+        font-size: 35px;
+        padding-left: 1000px;
+        font-family: cursive;
+    }
+
+    p {
+        color: rgb(112, 8, 8);
+        text-shadow: 1px 1px 1px rgb(149, 240, 113);
+        font-size: 35px;
+        padding-left: 1000px;
+        font-family: cursive;
+    }
+
+    .add {
+        float: right;
+
+    }
+</style>
+
+<body>
+
+
+    <div class="shub">
+        <nav class="menu">
+            <img src="school-emoji.png" alt="logo" class="src" height="45px" width="45px">
+            <a href="#" class="">Home<i class="fa-solid fa-house-chimney"></i></a>
+            <span class="drop">
+                <a href="#" class="">About<i class="fa-solid fa-caret-down"></i></a>
+                <span class="dropdown">
+                    <a href="#">ClassRooms</a>
+                    <a href="#">Hostel</a>
+                    <a href="#">Office</a>
+                </span>
+            </span>
+            <a href="#" class="">Contact Us<i class="fa-solid fa-address-card"></i></a>
+            <a href="#" class="">Facility</a>
+
+            <div class="button">
+                <button class="btn1">Search</button>
+                <input class="sbtn" type="search" placeholder="search here" name="searcg">
+            </div>
+            <div class="icon">
+                <i class="fa-brands fa-instagram-square"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter-square"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+
+        </nav>
+    </div>
+    <div class="img1">
+        <h1>"A Great Place To Learn"</h1>
+        <h3>Be Inspired. Be Determined. Be Unstoppable ! </h3>
+        <button class="btn">Like</button>
+        <button class="btn">Shere</button>
+
+    </div>
+    <div class="img2">
+        <h2>"Don't limit yourself. Many people limit themselves to what they think they can do.You can go as far as your
+            mind lets you. What you believe, remember, you can achieve.” <br><br><br>
+            <a href="https://sloganshub.org/motivational-slogans/" style="color: black;">motivational-slogans.com</a>
+        </h2>
+    </div>
+
+
+
+    <div class="register">
+        <h4>Register Here :</h4>
+        <form id="reg">
+            <label for="fname">First Name :</label><br>
+            <input type="text" placeholder=" Enter Your first name" name="fname" id="name"><br>
+            <label for="fname">Last Name :</label><br>
+            <input type="text" placeholder="Enter Your last name" name="lname" id="name"><br>
+            <label for="fname"> Contact No :</label><br>
+            <input type="number" placeholder="Enter Your Contact no" name="contct no" id="name"><br>
+            <label for="fname">Email :</label><br>
+            <input type="text" placeholder=" Enter Your Email" name="email" id="name"><br>
+        </form>
+
+        <h5>Address :</h5>
+        <p>Vetal Buva Chouck,<br>Nahre,Pune<br>Maharashtra 411041.</p>
+        <h5>contact :</h5>
+        <p>9876542109.</p>
+        <h5>Email :</h5>
+        <p>brainworks050@gmail.com .</p>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

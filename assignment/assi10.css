@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/images/pixel2.jpg);
+    background-size: 280 px;
+    background-position: -400px 0px;
+    width: 100%;
+    height: 100vh;
+    
+}
+div.main{
+    
+    width: 400px;
+    margin: 100px auto opx auto;
+    position: relative;
+    }
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 5px white;
+}
+label{
+    font-family: cursive;
+    font-size: 17px;
+    text-shadow: 5px 5px 5px rgb(105, 40, 40);
+    color:black;
+    text-align: center;
+}
+input#submit{ 
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(32, 25, 20, 0.8);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px ;
+    text-align: center;
+}
+div.register
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rbga(255,255,255,0.3)
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    position: absolute;
+    left:500px
+}

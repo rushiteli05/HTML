@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+</head>
+<style>
+.container{
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    /* properties for flex container */
+    flex-direction: row;
+    /* flex-direction: column; */.
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+     flex-wrap: wrap;
+    /* flex-wrap:nowrap */
+    /* flex-wrap: wrap-reverse; */ 
+
+     /* flex-flow: row-reverse wrap; -2 ni property yeka mdhech deu shkato*/
+
+
+      /* justify content will justify the content in horizontal direction */
+     /* justify-content: center;-center la jate
+     justify-content: space-between; - 2 box chya mdhe space starting pasun nhi
+     justify-content: space-evenly;- starting pasun equal space box mdhe
+     justify-content: space-around; - box chya left right la same space. */
+
+/* alion aitem will justify the content in verticAL direction  */
+     /* align-items: center; -verticaly center hotat
+     /* align-items: flex-end; -end la yete. */
+     /* align-items:flex-start; -vrti jate. */
+     /* align-items:stretch;  */
+    }
+
+.item{
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+    height: 100px;
+    width: 100px;
+}
+#item-1{
+    /* order: 2; -order mothi asel tr last la show hoil */
+    /* flex-grow: 3; -no deil tvdha box motha hot jato */
+    /* flex-shrink: 3; -no deil tevdha box chota hot jato */
+    /* flex-basis: 320px;  */
+    /* when flex-direction is set to row flex-basis:will control width */
+    /* when flex-direction is set to column flex-basis:will control height */
+}
+#item-3{
+   /* flex: 2 2 344px;  -(grow shrink basis) */
+   /* align-self: flex-end; - khali end la jail
+   align-self: flex-start; 
+   align-self: flex-center; 
+} */
+
+</style>
+
+
+
+
+<body>
+    <h1>flex box Tutorial</h1>
+    <div class="container">
+        <div class="item" id="item-1">Box 1</div>
+        <div class="item" id="item-2">Box 2</div>
+        <div class="item" id="item-3">Box 3</div>
+        <div class="item" id="item-4">Box 4</div>
+        <div class="item" id="item-5">Box 5</div>
+        <div class="item" id="item-6">Box 6</div>
+    </div>
+</body>
+</html>

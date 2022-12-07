@@ -1,0 +1,29 @@
+.container{
+   
+    height: 500px;
+    width: 80%;
+    padding: 20px;
+    
+}
+
+.img1{
+    padding: 10px;
+    border: 2px solid black;
+    float: left;
+    margin: 10px;
+    
+ 
+    
+}
+.img1:hover{
+    
+    background: rgb(104, 100, 100);
+    transition: width 2s, height 4s;
+   
+}
+img{
+    border-radius: 50%;
+}
+
+
+
